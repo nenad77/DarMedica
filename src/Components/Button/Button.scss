@@ -1,0 +1,24 @@
+@import '../Variables/Variables.scss'; 
+
+.btn-nav {
+    background-color: $secondary-color !important;
+    
+    &:hover {
+        background-color: $primary-color !important;
+        -webkit-transition: color .7s;
+        transition: color .7s;
+    }
+    
+}
+
+.btn-hero {
+    background-color: $primary-color !important;
+    color: $secondary-text-color !important;
+    float: right;
+    
+    &:hover {
+        background-color: $secondary-color !important;
+        -webkit-transition: color .7s;
+        transition: color .7s;
+    }
+}

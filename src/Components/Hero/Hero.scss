@@ -1,0 +1,47 @@
+@import '../Variables/Variables.scss'; 
+
+.hero-image {
+    width: 100%;
+    height: 624px;
+
+    .hero-image-content {
+        width: 50%;
+        @media (max-width: 1200px) { 
+            width: 100%;
+        }
+
+        h1 {
+            font-size: $hero-image-title;
+
+            & strong {
+                display: block;
+            }
+
+            @media (max-width: 768px) { 
+                font-size: $hero-image-title-sm;
+            }
+        }
+
+        & span {
+            font-weight: 600;
+            color: $primary-color;
+
+            &:last-of-type {
+                color: $secondary-color;
+            }
+
+        }
+
+        p {
+            font-size: $hero-image-text;
+            width: 75%;
+
+            @media (max-width: 768px) { 
+                width: 100%;
+            }
+        }
+
+    }
+
+
+}

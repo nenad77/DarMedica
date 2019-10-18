@@ -1,0 +1,72 @@
+@import '../Variables/Variables.scss'; 
+ 
+.top-nav {
+    background-color: $primary-color;
+    display: flex;
+    padding: 18px 0 18px 45px;
+    color: $secondary-text-color;
+
+    & .top-nav-phone,
+    & .top-nav-clock {
+        margin-left: 60px;
+
+        @media (max-width: 800px) {
+            margin-left: 0;
+        }
+    }  
+
+    & a {
+        color: $secondary-text-color;
+
+        &:hover {
+            color: $primary-text-color;
+            text-decoration: none;
+            -webkit-transition: color .7s;
+            transition: color .7s;
+        }
+    }
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.navbar-medica {
+    padding: 45px !important;
+
+    & li {
+        margin-right: 30px;
+
+        &:last-of-type {
+            margin-right: 0;
+
+            & a {
+                color: $secondary-text-color !important;
+
+                &:hover {
+                    color: $secondary-text-color !important;
+                }
+            }
+            
+        }
+
+        & a {
+            color: $secondary-color !important;
+            font-weight: 600;
+    
+            &:hover {
+                color: $primary-color !important;
+                -webkit-transition: color .7s;
+                transition: color .7s;
+            }
+        }
+    }
+
+    @media (max-width: 800px) {
+        padding: 15px !important;
+    }
+}
+
+

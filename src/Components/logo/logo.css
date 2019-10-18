@@ -1,0 +1,45 @@
+.icon {
+    width: 210px;
+    height: 46px;
+}
+
+.cls-1 {
+    fill: #3391af;
+}
+
+.map {
+    fill: none;
+    stroke: #E47A99;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+}
+.animate {
+    -webkit-animation: dash 5s linear;
+    animation: dash 5s linear;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@keyframes dash {
+    from {
+        stroke-dashoffset: 500; 
+        fill: #E47A99 !important;
+        
+    }
+    to {
+        stroke-dashoffset: 0; 
+        fill: #E47A99 !important;
+        
+    }
+} 
+@-webkit-keyframes dash {
+    from {
+        stroke-dashoffset: 500;
+        fill:  #E47A99;
+    }
+    to {
+        stroke-dashoffset: 0;
+        fill: #E47A99;
+    }
+}  
