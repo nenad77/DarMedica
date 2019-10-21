@@ -1,0 +1,26 @@
+@import '../Variables/Variables.scss'; 
+
+.about-home {
+
+    h2 {
+        font-size: $hero-image-title;
+
+        & strong {
+            display: block;
+        }
+
+        @media (max-width: 768px) { 
+            font-size: $hero-image-title-sm;
+        }
+    }
+
+    & span {
+        font-weight: 600;
+        color: $primary-color;
+
+        &:last-of-type {
+            color: $secondary-color;
+        }
+
+    }
+}

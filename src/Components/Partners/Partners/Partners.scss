@@ -1,0 +1,21 @@
+@import '../../Variables/Variables.scss'; 
+
+.partners-home-container {
+    background-color: $service-card-color-three;
+
+    h2 {
+        font-size: $hero-image-title;
+    }
+
+    p {
+        widows: 100%;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+
+.partners-home {
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+}

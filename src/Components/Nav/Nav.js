@@ -52,7 +52,7 @@ const Nav = () => {
                         <Link className="nav-link" to="/">Galerija</Link>
                     </li>
                     <li className="nav-item">
-                        <Button className="btn-nav" name="Kako do nas" />
+                        <Button className="btn-nav" name="Kako do nas" navLink="/kako-do-nas" />
                     </li>
                 </ul>
             </div>

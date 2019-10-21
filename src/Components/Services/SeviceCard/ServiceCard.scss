@@ -1,0 +1,151 @@
+@import '../../Variables/Variables.scss'; 
+
+.service-card {
+
+    p {
+        font-size: $service-text;
+    }
+
+    h2 {
+        height: 76px;
+    }
+
+    .btn {
+        border: 1px solid $button-border-color;
+        color: $secondary-text-color;
+    }
+    
+}
+
+
+.service-icon {
+
+    & img {
+        height: 45px;
+        margin-bottom: 55px;
+    }
+
+
+}
+
+// card css
+
+.service-acute {
+    background-color: $primary-color;
+
+    &:hover {
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -moz-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -webkit-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+
+        & > h2 {
+            color: $primary-color;
+        }
+
+        & > p {
+            color: $primary-text-color;
+        }
+
+        img {
+            filter: invert(59%) sepia(65%) saturate(495%) hue-rotate(298deg) brightness(96%) contrast(87%);
+        }
+
+        .btn {
+            background-color: $primary-color;
+            color: $secondary-text-color;
+        }
+    }
+}
+
+.service-exams {
+    background-color: $service-card-color-three;
+
+    &:hover {
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -moz-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -webkit-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+
+        & > h2 {
+            color: $service-card-color-three;
+        }
+
+        & > p {
+            color: $primary-text-color;
+        }
+
+        img {
+            filter: invert(31%) sepia(76%) saturate(353%) hue-rotate(145deg) brightness(92%) contrast(87%);
+        }
+
+        .btn {
+            background-color: $service-card-color-three;
+            color: $secondary-text-color;
+        }
+    }
+}
+
+.service-counseling {
+    background-color: $service-card-color-one;
+
+    &:hover {
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -moz-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -webkit-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+
+        & > h2 {
+            color: $service-card-color-one;
+        }
+
+        & > p {
+            color: $primary-text-color;
+        }
+
+        img {
+            filter: invert(33%) sepia(11%) saturate(3920%) hue-rotate(210deg) brightness(97%) contrast(89%);
+        }
+
+        .btn {
+            background-color: $service-card-color-one;
+            color: $secondary-text-color;
+        }
+    }
+}
+
+.service-vaccination {
+    background-color: $service-card-color-two;
+
+    &:hover {
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -moz-box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        box-shadow: 0px 0px 34px -6px rgba(0,0,0,0.41);
+        -webkit-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+
+        & > h2 {
+            color: $service-card-color-two;
+        }
+
+        & > p {
+            color: $primary-text-color;
+        }
+
+        img {
+            filter: invert(47%) sepia(72%) saturate(2091%) hue-rotate(192deg) brightness(99%) contrast(93%);
+        }
+        
+        .btn {
+            background-color: $service-card-color-two;
+            color: $secondary-text-color;
+        }
+    }
+}
