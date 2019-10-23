@@ -2,11 +2,11 @@
 
 .btn-nav {
     background-color: $secondary-color !important;
+    -webkit-transition: background-color .7s;
+    transition: background-color .7s;
     
     &:hover {
         background-color: $primary-color !important;
-        -webkit-transition: color .7s;
-        transition: color .7s;
     }
     
 }
@@ -18,7 +18,5 @@
     
     &:hover {
         background-color: $secondary-color !important;
-        -webkit-transition: color .7s;
-        transition: color .7s;
     }
 }

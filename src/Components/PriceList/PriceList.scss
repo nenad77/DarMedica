@@ -1,0 +1,42 @@
+@import '../Variables/Variables.scss';
+
+.table {
+    color: $secondary-color !important;
+    font-weight: 600;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, 
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: $secondary-color;
+    color: $secondary-text-color;
+}
+
+.table th, .table td {
+    padding: 1.2rem !important;
+}
+
+#priceList  {
+
+    & thead th {
+        background-color: $secondary-color;
+        color: $secondary-text-color;
+    }
+
+    & tbody tr:first-of-type {
+        display: none;
+    }
+}
+
+.pricelist-footer {
+    background-color: $secondary-color;
+    color: $secondary-text-color;
+
+    & a {
+        color: $secondary-text-color;
+        text-decoration: none;
+
+        &:hover {
+            color: $primary-text-color;
+        }
+    }
+}

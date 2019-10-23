@@ -4,6 +4,8 @@ import Hero from '../Components/Hero/Hero';
 import ServiceHome from '../Components/Services/ServiceHome';
 import AboutHome from '../Components/AboutHome/AboutHome';
 import Partners from '../Components/Partners/Partners/Partners';
+import Map from '../Components/Map/Map';
+import Footer from '../Components/Footer/Footer';
 
 
 
@@ -18,6 +20,8 @@ const IndexPage = () => {
              <ServiceHome />
              <AboutHome />
              <Partners />
+             <Map />
+             <Footer />
         </div>
     )
 }

@@ -3,6 +3,8 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import IndexPage from './pages';
+import PriceListPage from './pages/priceList';
+import PartnersPage from './pages/partnersPage';
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
       <Router>
         <Switch>
           <Route exact path = "/" component = {IndexPage}/>  
+          <Route exact path = "/cenovnik" component = {PriceListPage}/> 
+          <Route exact path = "/saradnici" component = {PartnersPage}/> 
         </Switch>
       </Router>
     )

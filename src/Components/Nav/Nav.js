@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import Logo from '../logo/logo';
 import './Nav.scss';
 import '../Button/Button.scss';
@@ -16,49 +16,52 @@ const clockNav = <FontAwesomeIcon icon = {faClock} />
 const Nav = () => {
 
     return (
-        <Fragment>
-        <div className = "top-nav">
-            <div className = "top-nav-location">
-                {locationNav} <Link to = "/">Blok A, Uroša Martinovića 19, Novi Beograd</Link>
+        
+        <div className = "fixed-toop">  
+            <div className = "top-nav sticky-top">
+                <div className = "top-nav-location">
+                    {locationNav} <Link to = "/">Blok A, Uroša Martinovića 19, Novi Beograd</Link>
+                </div>
+                <div className = "top-nav-phone">
+                    {phoneNav} <a href = "tel:+38166221788">066 22 17 88</a>
+                </div>
+                <div className = "top-nav-clock d-none d-md-block">
+                    {clockNav} <span>10 - 22</span>
+                </div>
             </div>
-            <div className = "top-nav-phone">
-                {phoneNav} <a href = "tel:+38166221788">066 22 17 88</a>
-            </div>
-            <div className = "top-nav-clock">
-                {clockNav} <span>Radno vreme: 9 - 17č</span>
-            </div>
-        </div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-white navbar-medica text-uppercase">
-            <a className="navbar-brand" href="/"><Logo/></a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
+            <nav className=" navbar navbar-expand-lg navbar-light bg-white navbar-medica text-uppercase">
+                <a className="navbar-brand" href="/"><Logo/></a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-            <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul className="navbar-nav d-flex align-items-center">
-                    <li className="nav-item active">
-                        <Link className="nav-link" to="/">Početna <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/">Usluge</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/">Saradnici</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/">Cenovnik</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/">Galerija</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Button className="btn-nav" name="Kako do nas" navLink="/kako-do-nas" />
-                    </li>
-                </ul>
-            </div>
-            
+                <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul className="navbar-nav d-flex align-items-center">
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/">Početna <span className="sr-only">(current)</span></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Usluge</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/saradnici">Saradnici</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/cenovnik">Cenovnik</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Galerija</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Button className="btn-nav" name="Kako do nas" navLink="/kako-do-nas" />
+                        </li>
+                    </ul>
+                </div>
+                
         </nav>
-        </Fragment>
+
+        </div>
+
     )
 }
 

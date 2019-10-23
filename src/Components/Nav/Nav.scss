@@ -17,12 +17,13 @@
 
     & a {
         color: $secondary-text-color;
+        -webkit-transition: color .7s;
+        transition: color .7s;
 
         &:hover {
             color: $primary-text-color;
             text-decoration: none;
-            -webkit-transition: color .7s;
-            transition: color .7s;
+
         }
     }
 
@@ -55,11 +56,12 @@
         & a {
             color: $secondary-color !important;
             font-weight: 600;
+            -webkit-transition: color .7s;
+            transition: color .7s;
     
             &:hover {
                 color: $primary-color !important;
-                -webkit-transition: color .7s;
-                transition: color .7s;
+
             }
         }
     }
