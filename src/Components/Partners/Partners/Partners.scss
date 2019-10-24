@@ -5,17 +5,29 @@
 
     h2 {
         font-size: $hero-image-title;
+
+        @media (max-width: 768px) { 
+            font-size: $hero-image-title-sm;
+        }
     }
 
     p {
         widows: 100%;
         max-width: 75%;
         margin: 0 auto;
+
+        @media (max-width: 768px) { 
+            max-width: 100%;
+        }
     }
 }
 
 .partners-home {
     width: 100%;
-    max-width: 75%;
+    max-width: 65%;
     margin: 0 auto;
+
+    @media (max-width: 768px) { 
+        max-width: 100%;
+    }
 }

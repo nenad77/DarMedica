@@ -10,7 +10,7 @@ const PriceListPage = () => {
         <div className="App">
             <Nav />
             <PriceList />
-            <Footer className = "pricelist-footer" />
+            <Footer className = "pricelist-footer mt-5" />
         </div>
     )
 }
