@@ -3,6 +3,22 @@
 .map-container {
     border-top: 30px solid $button-border-color;
     position: relative;
+
+    a {
+        position: relative;
+
+        .map-pin {
+            position: absolute;
+            top: -90px;
+            left: calc(50% - 29px);
+            width: 80px;
+
+            @media (max-width: 575.98px) { 
+                width: 60px;
+                top: -70px;
+            }
+        }
+    }
 }
 
 .cloud-map {

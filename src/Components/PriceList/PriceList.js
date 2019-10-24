@@ -80,7 +80,7 @@ class PriceList extends Component {
                         <h1>Cenovnik</h1>
                         <h3>Specijalistička pedijatrijska ordinacija Dar Medica</h3>
                     </div>
-                    <div className = "table-responsive-sm m-5">
+                    <div className = "table-responsive-sm">
                         <table id='priceList' className="table table-striped">
                             <thead>
                                 <tr>
