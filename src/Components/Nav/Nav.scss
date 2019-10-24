@@ -66,6 +66,10 @@
         }
     }
 
+    .active-class {
+        color: $primary-color !important;
+    }
+
     @media (max-width: 800px) {
         padding: 15px !important;
     }

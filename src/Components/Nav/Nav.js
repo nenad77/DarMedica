@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../logo/logo';
 import './Nav.scss';
 import '../Button/Button.scss';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
@@ -13,6 +13,8 @@ const phoneNav = <FontAwesomeIcon icon = {faPhoneAlt} />
 const locationNav = <FontAwesomeIcon icon = {faMapMarkerAlt} />
 const clockNav = <FontAwesomeIcon icon = {faClock} />
 
+const url = "https://www.google.com/maps/place/Уроша+Мартиновића+19,+Београд/@44.8056951,20.4005234,265m/data=!3m1!1e3!4m5!3m4!1s0x475a6f9b36a516cd:0x4c42bb8409370f6a!8m2!3d44.8058443!4d20.4004147?hl=sr";
+
 const Nav = () => {
 
     return (
@@ -20,7 +22,7 @@ const Nav = () => {
         <div className = "fixed-toop">  
             <div className = "top-nav sticky-top">
                 <div className = "top-nav-location">
-                    {locationNav} <Link to = "/">Blok A, Uroša Martinovića 19, Novi Beograd</Link>
+                    {locationNav} <a href = {url}>Blok A, Uroša Martinovića 19, Novi Beograd</a>
                 </div>
                 <div className = "top-nav-phone">
                     {phoneNav} <a href = "tel:+38166221788">066 22 17 88</a>
@@ -30,27 +32,27 @@ const Nav = () => {
                 </div>
             </div>
             <nav className=" navbar navbar-expand-lg navbar-light bg-white navbar-medica text-uppercase">
-                <a className="navbar-brand" href="/"><Logo/></a>
+                <a className="navbar-brand" href="/index"><Logo/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav d-flex align-items-center">
-                        <li className="nav-item active">
-                            <Link className="nav-link" to="/">Početna <span className="sr-only">(current)</span></Link>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/index" activeClassName = "active-class">Početna <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Usluge</Link>
+                            <NavLink className="nav-link" to="/usluge" activeClassName = "active-class">Usluge</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/saradnici">Saradnici</Link>
+                            <NavLink className="nav-link" to="/konsultanti" activeClassName = "active-class">Konsultanti</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/cenovnik">Cenovnik</Link>
+                            <NavLink className="nav-link" to="/cenovnik" activeClassName = "active-class">Cenovnik</NavLink>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Galerija</Link>
+                            <NavLink className="nav-link" to="/galerija" activeClassName = "active-class">Galerija</NavLink>
                         </li>
                         <li className="nav-item">
                             <Button className="btn-nav" name="Kako do nas" navLink="/kako-do-nas" />
@@ -58,7 +60,7 @@ const Nav = () => {
                     </ul>
                 </div>
                 
-        </nav>
+            </nav>
 
         </div>
 

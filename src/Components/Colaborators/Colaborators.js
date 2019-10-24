@@ -15,6 +15,10 @@ const Colaborators = () => {
                 </div>
             </div>
             <div className = "container">
+                <div className = "row flex-column text-center p-5">
+                    <h1>Konsultanti</h1>
+                    <h3>Specijalistička pedijatrijska ordinacija Dar Medica</h3>
+                </div>
                 <div className = "row my-5">
                     <div className = "col-md-6 mb-4">
                         <ColaboratorsCard title = "Dr Dragana Antić" speciality = "spec. pedijatrije / opšta pedijatrija" workplace = "Dom zdravlja 'Novi Beograd'" />
@@ -38,13 +42,13 @@ const Colaborators = () => {
                         <ColaboratorsCard  title = "Dr Milan Vidaković" speciality = "spec. ORL / otorinolaringologija" workplace = "KBC 'Zemun'"/>
                     </div>
                     <div className = "col-md-6 mb-4">
-                        <ColaboratorsCard  title = "Prof. dr Petar Ivanovski" speciality = "spec. pedijatrije / hematologija" workplace = "UDK 'Tiršova'"/>
+                        <ColaboratorsCard  title = "Prof. Dr Petar Ivanovski" speciality = "spec. pedijatrije / hematologija" workplace = "UDK 'Tiršova'"/>
                     </div>
                     <div className = "col-md-6 mb-4">
-                        <ColaboratorsCard  title = "Doc. dr Dušan Paripović" speciality = "spec. pedijatrije / nefrologija" workplace = "UDK 'Tiršova'"/>
+                        <ColaboratorsCard  title = "Doc. Dr Dušan Paripović" speciality = "spec. pedijatrije / nefrologija" workplace = "UDK 'Tiršova'"/>
                     </div>
                     <div className = "col-md-6 mb-4">
-                        <ColaboratorsCard  title = "dr Mišela Raus" speciality = "spec. pedijatrije / neonatologija" workplace = "UDK 'Tiršova'"/>
+                        <ColaboratorsCard  title = "Dr Mišela Raus" speciality = "spec. pedijatrije / neonatologija" workplace = "UDK 'Tiršova'"/>
                     </div>
                 </div>
             </div>   
