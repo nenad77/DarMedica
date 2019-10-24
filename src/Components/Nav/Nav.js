@@ -32,7 +32,7 @@ const Nav = () => {
                 </div>
             </div>
             <nav className=" navbar navbar-expand-lg navbar-light bg-white navbar-medica text-uppercase">
-                <a className="navbar-brand" href="/index"><Logo/></a>
+                <a className="navbar-brand" href="/"><Logo/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -40,7 +40,7 @@ const Nav = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav d-flex align-items-center">
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/index" activeClassName = "active-class">Početna <span className="sr-only">(current)</span></NavLink>
+                            <NavLink className="nav-link" to="/" >Početna <span className="sr-only">(current)</span></NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/usluge" activeClassName = "active-class">Usluge</NavLink>
