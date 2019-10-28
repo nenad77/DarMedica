@@ -5,10 +5,9 @@
     font-weight: 600;
 }
 
-.table-striped > tbody > tr:nth-child(2n+1) > td, 
-.table-striped > tbody > tr:nth-child(2n+1) > th {
-    background-color: $secondary-color;
-    color: $secondary-text-color;
+.table-hover tbody tr:hover {
+    color: $secondary-text-color !important;
+    background-color: $secondary-color !important;
 }
 
 .table th, .table td {
@@ -24,6 +23,13 @@
 
     & tbody tr:first-of-type {
         display: none;
+    }
+}
+
+.cc-container {
+
+    img {
+        width: 100px;
     }
 }
 

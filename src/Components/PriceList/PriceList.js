@@ -2,6 +2,10 @@ import React, {Fragment, Component } from 'react';
 import './PriceList.scss';
 import heroImg from '../../img/PriceList/hero.jpg';
 
+import master from '../../img/PriceList/cc-logo/master.svg';
+import visa from '../../img/PriceList/cc-logo/visa.svg';
+import dina from '../../img/PriceList/cc-logo/dina.svg';
+
 class PriceList extends Component {
    constructor(props) {
 
@@ -81,7 +85,7 @@ class PriceList extends Component {
                         <h3>Specijalistička pedijatrijska ordinacija Dar Medica</h3>
                     </div>
                     <div className = "table-responsive-sm">
-                        <table id='priceList' className="table table-striped">
+                        <table id='priceList' className="table table-hover">
                             <thead>
                                 <tr>
                                     <th scope="col">Red. Br.</th>
@@ -94,6 +98,20 @@ class PriceList extends Component {
                                 {this.renderTableData()}
                             </tbody>
                         </table>
+                    </div>
+                    <div className = "cc-container">
+                        <div className = "row">
+                            <div className = "col-md-3">
+                                <h3>Načini plaćanja</h3>
+                                <p>Plaćanje gotovinom u dinarima</p>
+                                <p>Plaćanje debitnim i kreditnim karticama</p>
+                            </div>
+                            <div className = "col-md-9">
+                                <img src = {visa} alt = "visa" />
+                                <img src = {master} alt = "master" />
+                                <img src = {dina} alt = "dina" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Fragment>
