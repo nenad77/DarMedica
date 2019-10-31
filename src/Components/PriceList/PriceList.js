@@ -102,9 +102,9 @@ class PriceList extends Component {
                     <div className = "cc-container">
                         <div className = "row">
                             <div className = "col-md-3">
-                                <h3>Načini plaćanja</h3>
-                                <p>Plaćanje gotovinom u dinarima</p>
-                                <p>Plaćanje debitnim i kreditnim karticama</p>
+                                <h4>Načini plaćanja</h4>
+                                <p>Plaćanje gotovinom u dinarima.</p>
+                                <p>Plaćanje debitnim i kreditnim karticama.</p>
                             </div>
                             <div className = "col-md-9">
                                 <img src = {visa} alt = "visa" />

@@ -1,21 +1,25 @@
-.icon {
-    width: 210px;
-    height: 46px;
+.direction-blokovi {
+    height: 766px;
 }
 
-.cls-1 {
+.blokovi {
+    width: 1043px;
+    height: 766px;
+}
+
+.st0 {
     fill: #3391af;
 }
 
 .map {
     fill: none;
     stroke: #E47A99;
-    stroke-dasharray: 500;
-    stroke-dashoffset: 500;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
 }
 .animate {
-    -webkit-animation: dash 5s linear;
-    animation: dash 5s linear;
+    -webkit-animation: dash 1s linear;
+    animation: dash 1s linear;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
@@ -23,7 +27,7 @@
 }
 @keyframes dash {
     from {
-        stroke-dashoffset: 500; 
+        stroke-dashoffset: 100; 
         fill: #E47A99 !important;
         
     }
@@ -35,7 +39,7 @@
 } 
 @-webkit-keyframes dash {
     from {
-        stroke-dashoffset: 500;
+        stroke-dashoffset: 100;
         fill:  #E47A99;
     }
     to {
@@ -46,9 +50,3 @@
 
 
 
-@media (max-width: 1024px) {
-    .icon {
-        width: 160px;
-        height: 35px;
-    }
-}

@@ -12,13 +12,13 @@ const ServiceHome = () => {
 
         <div className = "container-fluid">
             <div className = "row">
-                <ServiceCard className = "service-acute" title = "Akutna stanja"  desc = "Brinemo o deci kada je to najpotrebnije. U slučajevima kada se razbole, daćemo sve od sebe da pregled zakažemo što je pre moguće, a u nekim slučajevima moguće su I kućne posete." icon={`${bandaid}`} serviceNavLink="/services/akutna" />
+                <ServiceCard className = "service-acute" title = "Akutna stanja"  desc = "Brinemo o deci kada je to najpotrebnije. U slučajevima kada se razbole, daćemo sve od sebe da pregled zakažemo što je pre moguće, a u nekim slučajevima moguće su I kućne posete." icon={`${bandaid}`} serviceNavLink="/akutna" />
 
-                <ServiceCard className = "service-exams" title = "Preventivni pregledi"  desc = "Pregledi zdrave dece (sistematski pregledi) su jako važni, radi praćenja rasta i razvoja, prevencije pojave bolesti, i blagovremenog otkrivanja eventualnih poremećaja zdravlja." icon={`${stehoscope}`} serviceNavLink="/services/pregledi"/>
+                <ServiceCard className = "service-exams" title = "Preventivni pregledi"  desc = "Pregledi zdrave dece (sistematski pregledi) su jako važni, radi praćenja rasta i razvoja, prevencije pojave bolesti, i blagovremenog otkrivanja eventualnih poremećaja zdravlja." icon={`${stehoscope}`} serviceNavLink="/pregledi"/>
 
-                <ServiceCard className = "service-counseling" title = "Savetovalište"  desc = "Želimo da budemo tu za Vas i Vašu decu i pružamo usluge savetovališta čak i za buduće roditelje. U savetovalištu se pruža zdravstveno vaspitni rad i podrška roditeljima i deci" icon={`${users}`} serviceNavLink="/services/savet"/>
+                <ServiceCard className = "service-counseling" title = "Savetovalište"  desc = "Želimo da budemo tu za Vas i Vašu decu i pružamo usluge savetovališta čak i za buduće roditelje. U savetovalištu se pruža zdravstveno vaspitni rad i podrška roditeljima i deci" icon={`${users}`} serviceNavLink="/saveti"/>
 
-                <ServiceCard className = "service-vaccination" title = "Vakcinacija"  desc = "Imunizacija je proces stvaranja otpornosti i antitela na određene mikrooorganizme (bakterije ili viruse). Jedna od efikasnih načina imunizacije je aktivna imunizacija." icon={`${syringe}`} serviceNavLink="/services/vakcinacija"/>
+                <ServiceCard className = "service-vaccination" title = "Vakcinacija"  desc = "Imunizacija je proces stvaranja otpornosti i antitela na određene mikrooorganizme (bakterije ili viruse). Jedna od efikasnih načina imunizacije je aktivna imunizacija." icon={`${syringe}`} serviceNavLink="/vakcinacija"/>
             </div>
         </div>
     )
