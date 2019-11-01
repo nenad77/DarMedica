@@ -25,7 +25,7 @@ class App extends Component {
           <Route exact path = "/akutna" component = {ServiceDesc}/>
           <Route exact path = "/pregledi" component = {ServiceDescPregledi}/>
           <Route exact path = "/saveti" component = {ServiceDescSaveti}/>
-          <Route exact path = "/vakcinacija" component = {ServiceDescVakcina}/>
+          <Route exact path = "/vakcina" component = {ServiceDescVakcina}/>
         </Switch>
       </Router>
     )

@@ -8,6 +8,7 @@ import hero from '../../img/service-page/hero.jpg';
 import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 import Saveti from './Saveti/Saveti';
+import './ServiceDesc.scss';
 
 
 const ServiceDescSaveti = () => {
@@ -25,11 +26,11 @@ const ServiceDescSaveti = () => {
             <div className = "container">
                 <div className = "row">
                 <div className = "col-xs-12 col-md-3">
-                    <ul>
-                        <li><NavLink to = "/akutna" >Akutna stanja</NavLink></li>
-                        <li><NavLink to = "/pregledi" >Preventivni pregledi</NavLink></li>
-                        <li><NavLink to = "/saveti" activeClassName = "active-class">Savetovalište</NavLink></li>
-                        <li><NavLink to = "/vakcinacija">Vakcinacija</NavLink></li>
+                    <ul className = "sidebar-nav pt-4">
+                        <li><NavLink to = "/akutna" activeClassName = "active-class"><img className = "img-acute" src = {bandaid} alt = "bandaid" /> Akutna stanja</NavLink></li>
+                        <li><NavLink to = "/pregledi" activeClassName = "active-class"><img className = "img-exam" src = {stehoscope} alt = "stehoscope" /> Preventivni pregledi</NavLink></li>
+                        <li><NavLink to = "/saveti" activeClassName = "active-class"><img className = "img-counsel" src = {users} alt = "users" /> Savetovalište</NavLink></li>
+                        <li><NavLink to = "/vakcina" activeClassName = "active-class"><img className = "img-vaccine" src = {syringe} alt = "syringe" /> Vakcinacija</NavLink></li>
                     </ul>
                 </div>
 

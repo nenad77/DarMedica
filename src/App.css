@@ -1,3 +1,7 @@
 * {
   font-family: 'Nunito', sans-serif;
 }
+
+.active-class {
+    color: #e57a99 !important;
+}

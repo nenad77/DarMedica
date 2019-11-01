@@ -1,0 +1,42 @@
+@import '../Variables/Variables.scss'; 
+
+
+.sidebar-nav {
+    img {
+        width: 40px;
+    }
+
+    li {
+        list-style-type: none !important;
+        margin: 30px 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: $primary-text-color;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+
+.img-acute {
+    filter: invert(30%) sepia(13%) saturate(3139%) hue-rotate(294deg) brightness(94%) contrast(89%);
+}
+
+.img-exam {
+    filter: invert(31%) sepia(18%) saturate(836%) hue-rotate(144deg) brightness(95%) contrast(85%);
+}
+
+.img-counsel {
+    filter: invert(26%) sepia(15%) saturate(1315%) hue-rotate(208deg) brightness(96%) contrast(89%);
+}
+
+.img-vaccine {
+    filter: invert(47%) sepia(72%) saturate(2091%) hue-rotate(192deg) brightness(99%) contrast(93%);
+}
