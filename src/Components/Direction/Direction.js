@@ -1,13 +1,13 @@
 import React from 'react';
 import direction from '../../img/direction/mapa-darmedica.png';
-import DirectionBlokovi from './DirectionBlokovi';
+import './Direction.scss';
 
 
 const Direction = () => {
 
     return (
         
-        <div className = "container-fluid">
+        <div className = "container-fluid container-direction-bg">
             <div className = "container">
                 <div className = "row flex-column">
                     <h1 className = "d-block">Kako do nas?</h1>
@@ -24,9 +24,6 @@ const Direction = () => {
                 <div className = "row">
                     <div className = "container-direction">
                         <img className = "w-100" src = {direction} alt = "Direction to the location" />
-                        <div className = "direction-blokovi">
-                            <DirectionBlokovi />
-                        </div>
                     </div> 
                 </div>
             </div>

@@ -1,52 +1,5 @@
-.direction-blokovi {
-    height: 766px;
+.container-direction-bg {
+    background-color: #d1d2d4  !important;
 }
-
-.blokovi {
-    width: 1043px;
-    height: 766px;
-}
-
-.st0 {
-    fill: #3391af;
-}
-
-.map {
-    fill: none;
-    stroke: #E47A99;
-    stroke-dasharray: 100;
-    stroke-dashoffset: 100;
-}
-.animate {
-    -webkit-animation: dash 1s linear;
-    animation: dash 1s linear;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-@keyframes dash {
-    from {
-        stroke-dashoffset: 100; 
-        fill: #E47A99 !important;
-        
-    }
-    to {
-        stroke-dashoffset: 0; 
-        fill: #E47A99 !important;
-        
-    }
-} 
-@-webkit-keyframes dash {
-    from {
-        stroke-dashoffset: 100;
-        fill:  #E47A99;
-    }
-    to {
-        stroke-dashoffset: 0;
-        fill: #E47A99;
-    }
-}  
-
 
 
