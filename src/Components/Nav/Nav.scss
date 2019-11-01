@@ -27,6 +27,11 @@
         }
     }
 
+    &.scrollUp {
+        transform: translateY(-180px)
+    }
+    
+
     @media (max-width: 800px) {
         flex-direction: column;
         padding: 10px;
