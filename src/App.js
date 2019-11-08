@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import IndexPage from './pages';
 import PriceListPage from './pages/priceList';
+import Galery from './pages/galery';
 import PartnersPage from './pages/partnersPage';
 import DirectionPage from './pages/directionPage';
 import ServicePage from './pages/servicePage';
@@ -26,6 +27,7 @@ class App extends Component {
           <Route exact path = "/pregledi" component = {ServiceDescPregledi}/>
           <Route exact path = "/saveti" component = {ServiceDescSaveti}/>
           <Route exact path = "/vakcina" component = {ServiceDescVakcina}/>
+          <Route exact path = "/galerija" component = {Galery}/>
         </Switch>
       </Router>
     )
