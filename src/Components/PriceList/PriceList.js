@@ -5,6 +5,8 @@ import heroImg from '../../img/PriceList/hero.jpg';
 import master from '../../img/PriceList/cc-logo/master.svg';
 import visa from '../../img/PriceList/cc-logo/visa.svg';
 import dina from '../../img/PriceList/cc-logo/dina.svg';
+import maestro from '../../img/PriceList/cc-logo/maestro.svg';
+import visaE from '../../img/PriceList/cc-logo/visa-e.svg';
 
 class PriceList extends Component {
    constructor(props) {
@@ -110,6 +112,8 @@ class PriceList extends Component {
                                 <img src = {visa} alt = "visa" />
                                 <img src = {master} alt = "master" />
                                 <img src = {dina} alt = "dina" />
+                                <img src = {maestro} alt = "maestro" />
+                                <img src = {visaE} alt = "visa elecrtron" />
                             </div>
                         </div>
                     </div>

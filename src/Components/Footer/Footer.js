@@ -27,7 +27,7 @@ const Footer = (props) => {
                         {phoneNav} <a href = "tel:+38166221788">066 22 17 88</a>
                     </div>
                     <div className = "footer-clock d-none d-md-block">
-                        {clockNav} <span>10 - 22</span>
+                        {clockNav} <span>10 - 20</span>
                     </div>
                 </div>
                 <div className = "footer-copyright text-center p-4">2019 &copy; Dar Medica Sva prava zadržana </div>

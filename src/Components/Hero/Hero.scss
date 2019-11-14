@@ -12,6 +12,7 @@
 
         h1 {
             font-size: $hero-image-title;
+            color: $secondary-color;
 
             & strong {
                 display: block;
@@ -24,10 +25,9 @@
 
         & span {
             font-weight: 600;
-            color: $primary-color;
 
-            &:last-of-type {
-                color: $secondary-color;
+            &:first-of-type {
+                color: $primary-color;
             }
 
         }
@@ -44,4 +44,7 @@
     }
 
 
+    @media (max-width: 1400px) {
+        background-position-x: center;
+    }
 }
