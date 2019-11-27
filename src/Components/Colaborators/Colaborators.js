@@ -36,7 +36,7 @@ const Colaborators = () => {
                         <ColaboratorsCard  title = "Dr Jasmina Jocić " speciality = "spec. pedijatrije / pulmologija" workplace = "KBC 'Dragiša Mišović'"/>
                     </div>
                     <div className = "col-md-6 mb-4">
-                        <ColaboratorsCard  title = "Dr Nataša Dragutinović" speciality = "spec. pedijatrije / gastroenterologija" workplace = "UDK 'Tiršova'"/>
+                        <ColaboratorsCard  title = "Dr Tatjana Knežević" speciality = "spec. fizikalne medicine i rehabilitacije" workplace = "UDK 'Tiršova'"/>
                     </div>
                     <div className = "col-md-6 mb-4">
                         <ColaboratorsCard  title = "Dr Milan Vidaković" speciality = "spec. ORL / otorinolaringologija" workplace = "KBC 'Zemun'"/>
@@ -49,6 +49,9 @@ const Colaborators = () => {
                     </div>
                     <div className = "col-md-6 mb-4">
                         <ColaboratorsCard  title = "Dr Mišela Raus" speciality = "spec. pedijatrije / neonatologija" workplace = "UDK 'Tiršova'"/>
+                    </div>
+                    <div className = "col-md-6 mb-4">
+                        <ColaboratorsCard  title = "Dr Bojan Bukva" speciality = "spec. dečje hirurgije / sub. spec. dečje ortopedije" workplace = "UDK 'Tiršova'"/>
                     </div>
                 </div>
             </div>   
