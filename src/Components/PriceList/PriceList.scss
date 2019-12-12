@@ -37,12 +37,20 @@
     background-color: $secondary-color;
     color: $secondary-text-color;
 
+    & svg {
+        color: $secondary-text-color;
+    }
+
     & a {
         color: $secondary-text-color;
         text-decoration: none;
 
         &:hover {
-            color: $primary-text-color;
+            color: $secondary-text-color;
         }
+    }
+
+    & span {
+        color: $secondary-text-color;
     }
 }

@@ -12,7 +12,7 @@
 
         h1 {
             font-size: $hero-image-title;
-            color: $secondary-color;
+            color: $primary-color;
 
             & strong {
                 display: block;
@@ -27,7 +27,7 @@
             font-weight: 600;
 
             &:first-of-type {
-                color: $primary-color;
+                color: $secondary-color;
             }
 
         }

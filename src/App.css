@@ -1,7 +1,18 @@
 * {
   font-family: 'Nunito', sans-serif;
+
 }
 
 .active-class {
     color: #e57a99 !important;
+}
+
+.main-title-color {
+    color:#2e829e;
+}
+
+
+/* class for adding color to text */
+.body-text-color {
+    color: #4d4d4d;
 }

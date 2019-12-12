@@ -16,8 +16,8 @@ const ColaboratorsCard = (props) => {
                 <div className = "col-sm-10 col-md-10">
                     <div className = "card-body p-0 mb-5">
                     <h3 className = "card-title">{props.title}</h3>
-                    <p className = "card-text">{props.speciality}</p>
-                    <p className = "card-text">{props.workplace}</p>
+                    <p className = "card-text body-text-color">{props.speciality}</p>
+                    <p className = "card-text body-text-color">{props.workplace}</p>
                 </div>
                 </div>
             </div>

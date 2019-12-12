@@ -12,6 +12,7 @@ import ServiceDesc from './Components/ServiceDesc/ServiceDesc';
 import ServiceDescPregledi from './Components/ServiceDesc/ServiceDescPregledi';
 import ServiceDescSaveti from './Components/ServiceDesc/ServiceDescSaveti';
 import ServiceDescVakcina from './Components/ServiceDesc/ServiceDescVakcina';
+import MoreAboutUs from './pages/more-about-us'
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
           <Route exact path = "/saveti" component = {ServiceDescSaveti}/>
           <Route exact path = "/vakcina" component = {ServiceDescVakcina}/>
           <Route exact path = "/galerija" component = {Galery}/>
+          <Route exact path = "/saznajte-vise" component = {MoreAboutUs}/>
         </Switch>
       </Router>
     )

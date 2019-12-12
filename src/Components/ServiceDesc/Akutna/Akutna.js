@@ -9,7 +9,7 @@ const Akutna = () => {
       
             <div className = "service-content">
 
-                <h1 className = "py-5">Akutna stanja</h1>
+                <h1 className = "py-5 main-title-color">Akutna stanja</h1>
             
                 <p className = "py-1">Brinemo o deci kada je to najpotrebnije. U slučajevima kada se razbole, daćemo sve od sebe da pregled zakažemo što je pre moguće, a u nekim slučajevima moguće su I kućne posete. Bolesno dete je najveća briga roditelja, i mi smo tu da dugogodišnjim iskustvom pomognemo u dijagnostici i lečenju najčešćih dečijih bolesti. </p>
 

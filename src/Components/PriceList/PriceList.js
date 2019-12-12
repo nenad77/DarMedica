@@ -12,12 +12,12 @@ class PriceList extends Component {
    constructor(props) {
 
 
-    function PriceTable (number, desc, price, discount, newPrice) {
+    function PriceTable (number, desc, price) {
         this.number = number;
         this.desc = desc;
         this.price = price;
-        this.discount = discount;
-        this.newPrice = newPrice;
+        // this.discount = discount;
+        // this.newPrice = newPrice;
     };
 
     
@@ -56,15 +56,15 @@ class PriceList extends Component {
 
     renderTableData() {
         return this.state.priceList.map((priceMed, index) => {
-        const { number, desc, price, discount, newPrice } = priceMed //destructuring
+        const { number, desc, price } = priceMed //destructuring
         return (
             
             <tr key={number}>
                 <td>{number}</td>
                 <td>{desc}</td>
                 <td>{price}</td>
-                <td>{discount}</td>
-                <td>{newPrice}</td>
+                {/* <td>{discount}</td>
+                <td>{newPrice}</td> */}
             </tr>
         )
         })
@@ -87,8 +87,8 @@ class PriceList extends Component {
                 </div>
                 <div className = "container">
                     <div className = "row flex-column text-center p-5">
-                        <h1>Cenovnik</h1>
-                        <h3>Specijalistička pedijatrijska ordinacija Dar Medica</h3>
+                        <h1 className = "main-title-color">Cenovnik</h1>
+                        <h3 className = "body-text-color">Specijalistička pedijatrijska ordinacija Dar Medica</h3>
                     </div>
                     <div className = "table-responsive-sm">
                         <table id='priceList' className="table table-hover">
@@ -97,8 +97,8 @@ class PriceList extends Component {
                                     <th scope="col">Red. Br.</th>
                                     <th scope="col">Opis usluge</th>
                                     <th scope="col">Cena usluge u RSD</th>
-                                    <th scope="col">Popust (%)</th>
-                                    <th scope="col">Cena usluge u RSD sa popustom</th>
+                                    {/* <th scope="col">Popust (%)</th>
+                                    <th scope="col">Cena usluge u RSD sa popustom</th> */}
                                 </tr>
                             </thead>
                             <tbody>
@@ -109,7 +109,7 @@ class PriceList extends Component {
                     </div>
                     <div className = "cc-container text-center pt-5">
 
-                            <div className = "cc-info">
+                            <div className = "cc-info body-text-color">
                                 <h2 className = "my-5">Načini plaćanja</h2>
                                 <p>Plaćanje gotovinom u dinarima.</p>
                                 <p>Plaćanje debitnim i kreditnim karticama.</p>
@@ -121,7 +121,7 @@ class PriceList extends Component {
                                 <img src = {maestro} alt = "maestro" />
                                 <img src = {visaE} alt = "visa elecrtron" />
                             </div>
-                            <div className = "cc-info mb-5">
+                            <div className = "cc-info mb-5 body-text-color">
                                 <h2 className = "my-5">Zdravstvena osiguranja</h2>
                                 <p>Specijalistička ordinacija iz oblasti pedijatrije Dar Medica ima ugovore sa osiguravajućim kompanijama Uniqa, Wiener Stadtische, Generali, Dunav i Triglav. Pacijent koji ima zdravstveno osiguranje ovih kompanija ne plaća pregled, već ordinacija refundira troškove lečenja od osiguravajućih kompanija.</p>
                             </div>

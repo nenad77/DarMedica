@@ -16,8 +16,8 @@ const Colaborators = () => {
             </div>
             <div className = "container">
                 <div className = "row flex-column text-center p-5">
-                    <h1>Konsultanti</h1>
-                    <h3>Specijalistička pedijatrijska ordinacija Dar Medica</h3>
+                    <h1 className = "main-title-color">Konsultanti</h1>
+                    <h3 className = "body-text-color">Specijalistička pedijatrijska ordinacija Dar Medica</h3>
                 </div>
                 <div className = "row my-5">
                     <div className = "col-md-6 mb-4">

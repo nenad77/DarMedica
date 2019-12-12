@@ -12,7 +12,7 @@ const AboutHome = () => {
             <div className = "row">
                 <div className = "col-md-6 d-flex align-items-center">
                     <div className = "about-home-text p-5">
-                        <h2 className = "mb-4">Dobrodošli u <span className = "text-uppercase">Dar</span> <span className = "text-uppercase">Medica</span></h2>
+                        <h2 className = "mb-4">Dobrodošli u <span className = "text-uppercase d-block">Dar Medica</span></h2>
                         <p>Dr. Danka Komatina, specijalista pedijatrije je osnivač i director specijalističke ordinacije iz oblasti pedijatrije Dar Medica. Dr Komatina je pedijatar sa preko 15 godina iskustva u radu sa decom svih uzrasta. Ordinacija je osnovana iz želje da se posveti svakom detetu, svakoj porodici, i uverenja da je concept porodičnog lekara važan, jer se tako razvija poverenje.</p>
 
                         <p>Neophodno je da se dete oseća da mu je pedijatar prijatelj, što osigurava adekvatan pregled i pridržavanje saveta i terapije.</p>

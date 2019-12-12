@@ -9,7 +9,7 @@ const Vakcina = () => {
       
             <div className = "service-content">
 
-                <h1 className = "py-5">Vakcinacija</h1>
+                <h1 className = "py-5 main-title-color">Vakcinacija</h1>
             
                 <p className = "py-1">Imunizacija je proces stvaranja otpornosti i antitela na određene mikrooorganizme (bakterije ili viruse). Jedna od efikasnih načina imunizacije je aktivna imunizacija, to jest vakcinacija, kada se davanjem vakcine sa uzročnikom bolesti koji je izmenjen ili umrtvljen, tako da ne može izazvati bolest, ali može stvoriti otpornost, što joj je i cilj. Vakcinacija je dakle jednostavan, bezbedan i efikasan način zaštite dece i odraslih od određenih zaraznih bolesti. Zaštita dece u najranijem uzrastu  Obavezna vakcinacija dece određenog uzrasta se sprovodi u skladu sa Zakonom.</p>
 

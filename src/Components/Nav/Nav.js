@@ -32,8 +32,8 @@ const Nav = () => {
                 <div className = "top-nav-phone">
                     {phoneNav} <a href = "tel:+38166221788">066 22 17 88</a>
                 </div>
-                <div className = "top-nav-clock d-none d-md-block">
-                    {clockNav} <span>10 - 20</span>
+                <div className = "top-nav-clock d-md-block">
+                    {clockNav} <span>10 - 20 svakog dana</span>
                 </div>
             </div>
             <nav className=" navbar navbar-expand-lg navbar-light bg-white navbar-medica text-uppercase">

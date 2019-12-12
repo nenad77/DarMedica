@@ -16,9 +16,9 @@ const ServiceHome = () => {
 
                 <ServiceCard className = "service-exams" title = "Preventivni pregledi"  desc = "Pregledi zdrave dece (sistematski pregledi) su jako važni, radi praćenja rasta i razvoja, prevencije pojave bolesti, i blagovremenog otkrivanja eventualnih poremećaja zdravlja." icon={`${stehoscope}`} serviceNavLink="/pregledi"/>
 
-                <ServiceCard className = "service-counseling" title = "Savetovalište"  desc = "Želimo da budemo tu za Vas i Vašu decu i pružamo usluge savetovališta čak i za buduće roditelje. U savetovalištu se pruža zdravstveno vaspitni rad i podrška roditeljima i deci" icon={`${users}`} serviceNavLink="/saveti"/>
+                <ServiceCard className = "service-acute" title = "Savetovalište"  desc = "Želimo da budemo tu za Vas i Vašu decu i pružamo usluge savetovališta čak i za buduće roditelje. U savetovalištu se pruža zdravstveno vaspitni rad i podrška roditeljima i deci" icon={`${users}`} serviceNavLink="/saveti"/>
 
-                <ServiceCard className = "service-vaccination" title = "Vakcinacija"  desc = "Imunizacija je proces stvaranja otpornosti i antitela na određene mikrooorganizme (bakterije ili viruse). Jedna od efikasnih načina imunizacije je aktivna imunizacija." icon={`${syringe}`} serviceNavLink="/vakcina"/>
+                <ServiceCard className = "service-exams" title = "Vakcinacija"  desc = "Imunizacija je proces stvaranja otpornosti i antitela na određene mikrooorganizme (bakterije ili viruse). Jedna od efikasnih načina imunizacije je aktivna imunizacija." icon={`${syringe}`} serviceNavLink="/vakcina"/>
             </div>
         </div>
     )

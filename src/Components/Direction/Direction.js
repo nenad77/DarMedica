@@ -10,7 +10,7 @@ const Direction = () => {
         <div className = "container-fluid">
             <div className = "container">
                 <div className = "row flex-column">
-                    <h1 className = "d-block">Kako do nas?</h1>
+                    <h1 className = "d-block main-title-color">Kako do nas?</h1>
                     {/* <div className = "bus-stations">
                         <p>Stanica Agostina Neta</p>
                         <p>Autobskim linijama 89, 95, E1, E5, E6</p>

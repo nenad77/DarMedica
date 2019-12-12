@@ -4,7 +4,7 @@
 
     h2 {
         font-size: $hero-image-title;
-
+        color: $primary-text-color;
         & strong {
             display: block;
         }
@@ -16,11 +16,14 @@
 
     & span {
         font-weight: 600;
-        color: $primary-color;
 
         &:last-of-type {
             color: $secondary-color;
         }
 
+    }
+
+    & p {
+        color: $primary-text-color;
     }
 }

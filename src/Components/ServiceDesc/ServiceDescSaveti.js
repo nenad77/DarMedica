@@ -29,8 +29,8 @@ const ServiceDescSaveti = () => {
                     <ul className = "sidebar-nav pt-4">
                         <li><NavLink to = "/akutna" activeClassName = "active-class"><img className = "img-acute" src = {bandaid} alt = "bandaid" /> Akutna stanja</NavLink></li>
                         <li><NavLink to = "/pregledi" activeClassName = "active-class"><img className = "img-exam" src = {stehoscope} alt = "stehoscope" /> Preventivni pregledi</NavLink></li>
-                        <li><NavLink to = "/saveti" activeClassName = "active-class"><img className = "img-counsel" src = {users} alt = "users" /> Savetovalište</NavLink></li>
-                        <li><NavLink to = "/vakcina" activeClassName = "active-class"><img className = "img-vaccine" src = {syringe} alt = "syringe" /> Vakcinacija</NavLink></li>
+                        <li><NavLink to = "/saveti" activeClassName = "active-class"><img className = "img-acute" src = {users} alt = "users" /> Savetovalište</NavLink></li>
+                        <li><NavLink to = "/vakcina" activeClassName = "active-class"><img className = "img-exam" src = {syringe} alt = "syringe" /> Vakcinacija</NavLink></li>
                     </ul>
                 </div>
 

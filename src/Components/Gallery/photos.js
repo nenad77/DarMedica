@@ -5,7 +5,7 @@ import img04 from "../../img/galerija/IMG_0033.JPG";
 import img05 from "../../img/galerija/IMG_0037.JPG";
 import img06 from "../../img/galerija/IMG_0040.JPG";
 import img07 from "../../img/galerija/IMG_0044.JPG";
-import img08 from "../../img/galerija/IMG_0045.JPG";
+// import img08 from "../../img/galerija/IMG_0045.JPG";
 import img09 from "../../img/galerija/IMG_0046.JPG";
 import img10 from "../../img/galerija/IMG_0056.JPG";
 import img11 from "../../img/galerija/IMG_0057.JPG";
@@ -29,7 +29,7 @@ import img28 from "../../img/galerija/IMG_9981.JPG";
 import img29 from "../../img/galerija/IMG_9983.JPG";
 import img30 from "../../img/galerija/IMG_9984.JPG";
 import img31 from "../../img/galerija/IMG_9987.JPG";
-import img32 from "../../img/galerija/IMG_9989.JPG";
+
 import img33 from "../../img/galerija/IMG_9995.JPG";
 import img34 from "../../img/galerija/IMG_9998.JPG";
 import img35 from "../../img/galerija/IMG_9999.JPG";
@@ -70,11 +70,11 @@ export const photos = [
       width: 4,
       height: 3
     },
-    {
-      src: img08,
-      width: 4,
-      height: 3
-    },
+    // {
+    //   src: img08,
+    //   width: 4,
+    //   height: 3
+    // },
     {
       src: img09,
       width: 4,
@@ -187,11 +187,6 @@ export const photos = [
       },
       {
         src: img31,
-        width: 4,
-        height: 3
-      },
-      {
-        src: img32,
         width: 4,
         height: 3
       },

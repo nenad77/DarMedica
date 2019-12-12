@@ -21,7 +21,7 @@ const GalleryOnPage = () => {
     <div className = "container">
         <div className = "row mb-5">
             <div className = "row mx-auto p-5">
-                    <h1>Galerija</h1>
+                    <h1 className = "main-title-color">Galerija</h1>
                     
                 </div>
 

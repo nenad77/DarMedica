@@ -9,7 +9,7 @@ const Pregledi = () => {
       
             <div className = "service-content">
 
-                <h1 className = "py-5">Preventivni pregledi</h1>
+                <h1 className = "py-5 main-title-color">Preventivni pregledi</h1>
             
                 <p>Pregledi zdrave dece (sistematski pregledi) su jako važni, radi praćenja rasta i razvoja, prevencije pojave bolesti, i blagovremenog otkrivanja eventualnih poremećaja zdravlja. Sistematski pregledi su česti tokom prve godine života, a kasnije se mogu obavljati jednom godišnje, ili obavezno, pre polaska u vrtić ili školu. Kako preventivnim pregledima posvećujemo posebnu pažnju, preporučujemo da se zakažu bar nedelju dana unapred.</p>
 
