@@ -107,21 +107,25 @@ class PriceList extends Component {
                             </tbody>
                         </table>
                     </div>
-                    <div className = "cc-container">
-                        <div className = "row">
-                            <div className = "col-md-3">
-                                <h4>Načini plaćanja</h4>
+                    <div className = "cc-container text-center pt-5">
+
+                            <div className = "cc-info">
+                                <h2 className = "my-5">Načini plaćanja</h2>
                                 <p>Plaćanje gotovinom u dinarima.</p>
                                 <p>Plaćanje debitnim i kreditnim karticama.</p>
                             </div>
-                            <div className = "col-md-9">
+                            <div className = "cc-images">
                                 <img src = {visa} alt = "visa" />
                                 <img src = {master} alt = "master" />
                                 <img src = {dina} alt = "dina" />
                                 <img src = {maestro} alt = "maestro" />
                                 <img src = {visaE} alt = "visa elecrtron" />
                             </div>
-                        </div>
+                            <div className = "cc-info mb-5">
+                                <h2 className = "my-5">Zdravstvena osiguranja</h2>
+                                <p>Specijalistička ordinacija iz oblasti pedijatrije Dar Medica ima ugovore sa osiguravajućim kompanijama Uniqa, Wiener Stadtische, Generali, Dunav i Triglav. Pacijent koji ima zdravstveno osiguranje ovih kompanija ne plaća pregled, već ordinacija refundira troškove lečenja od osiguravajućih kompanija.</p>
+                            </div>
+
                     </div>
                 </div>
             </Fragment>
